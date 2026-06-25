@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I.T.S. Puerto de Mejillones - El Alto</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8fafc;
+      color: #1e293b;
+    }
+
+
+    header {
+      background-color: #1e3a8a; 
+      color: #ffffff;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-contenedor img {
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      margin: 15px 0 5px 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #93c5fd;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .seccion-institucion {
+      background-color: #ffffff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      margin-bottom: 40px;
+    }
+
+    .seccion-institucion h2 {
+      color: #1e3a8a;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 10px;
+      margin-top: 0;
+    }
+
+    .imagen-campus {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    .seccion-institucion p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #475569;
+    }
+
+    .titulo-oferta {
+      color: #1e3a8a;
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.8rem;
+    }
+
+    .contenedor-tarjetas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .tarjeta-carrera {
+      background-color: #ffffff;
+      border-radius: 12px;
+      overflow: hidden; 
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      border: 1px solid #e2e8f0;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .tarjeta-carrera:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .tarjeta-imagen {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .tarjeta-contenido {
+      padding: 25px;
+    }
+
+    .nivel-tecnico {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      background-color: #ebf5ff;
+      color: #1e40af;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+
+    .tarjeta-carrera h3 {
+      color: #1e3a8a;
+      margin: 0 0 10px 0;
+      font-size: 1.4rem;
+    }
+
+    .tarjeta-carrera p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #475569;
+      margin-bottom: 20px;
+    }
+
+    .boton-estudios {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background-color: #1e3a8a;
+      color: #ffffff;
+      border: none;
+      padding: 12px 0;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .boton-estudios:hover {
+      background-color: #0f172a;
+    }
+
+    footer {
+      background-color: #0f172a;
+      color: #94a3b8;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+      font-size: 0.9rem;
+      border-top: 4px solid #3498db;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-contenedor">
+      <img src="imagesdfs.jpg" alt="Logotipo I.T.S. Puerto de Mejillones" width="90" height="90">
+      <h1>Instituto Tecnológico Superior "Puerto de Mejillones"</h1>
+      <p>Educación Superior Técnica en Ciudad Satélite, El Alto</p>
+    </div>
+  </header>
+
+
+  <main>
+    
+
+    <section class="seccion-institucion">
+      <h2>Nuestra Institución</h2>
+      <img src="123.jpeg" class="imagen-campus">
+      <p>
+        Con cerca de 40 años de sólida trayectoria formativa en la ciudad de El Alto, Bolivia, el <strong>Instituto Tecnológico Superior "Puerto de Mejillones"</strong> se destaca por la excelencia en su educación práctica. Contamos con talleres e infraestructura diseñados para que nuestros estudiantes desarrollen competencias directas para insertarse con éxito en el sector industrial y tecnológico del país.
+      </p>
+    </section>
+    <h2 class="titulo-oferta">Carreras Técnicas </h2>
+    
+    <div class="contenedor-tarjetas">
+      
+
+      <article class="tarjeta-carrera">
+        <img src="sistemas.avif" alt="Laboratorio de Sistemas" class="tarjeta-imagen">
+        <div class="tarjeta-contenido">
+          <span class="nivel-tecnico">Técnico Superior</span>
+          <h3>Sistemas Informáticos</h3>
+          <p>Especialízate en desarrollo de software, gestión de infraestructura de redes, bases de datos y soporte tecnológico integral enfocado en la transformación digital actual.</p>
+          <button class="boton-estudios">Ver Plan de Estudios</button>
+        </div>
+      </article>
+
+      <article class="tarjeta-carrera">
+        <img src="juan.jpg" alt="Taller de Mecánica" class="tarjeta-imagen">
+        <div class="tarjeta-contenido">
+          <span class="nivel-tecnico">Técnico Superior</span>
+          <h3>Mecánica Automotriz</h3>
+          <p>Domina el diagnóstico electrónico vehicular, mantenimiento preventivo y correctivo de motores a inyección, sistemas de transmisión y las nuevas tecnologías del parque automotor.</p>
+          <button class="boton-estudios">Ver Plan de Estudios</button>
+        </div>
+      </article>
+
+
+      <article class="tarjeta-carrera">
+        <img src="Electronica.jpg" alt="Laboratorio de Electrónica" class="tarjeta-imagen">
+        <div class="tarjeta-contenido">
+          <span class="nivel-tecnico">Técnico Superior</span>
+          <h3>Electrónica</h3>
+          <p>Aprende sobre automatización industrial, diseño de circuitos integrados, robótica, mantenimiento de equipos industriales y sistemas de control programables (PLC).</p>
+          <button class="boton-estudios">Ver Plan de Estudios</button>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+
+  <footer>
+    <p>&copy; 2026 Instituto Tecnológico Superior "Puerto de Mejillones" • El Alto, Bolivia</p>
+    <p style="font-size: 0.8rem; margin-top: 5px; color: #64748b;"></p>
+  </footer>
+
+</body>
+</html>
